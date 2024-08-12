@@ -7,14 +7,11 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class NewsComments : BaseEntity
+    public class Testimonial : BaseEntity
     {
         public string Name { get; set; }
-        public string Email { get; set; }
-        public string Website { get; set; }
         public string Content { get; set; }
-        public DateTime Date { get; set; }
-        public int NewsId { get; set; }
-        public int CommentId { get; set; } = 0;
+        public int Rate { get; set; }
+        public string PhotoUrl { get; set; }
     }
 }

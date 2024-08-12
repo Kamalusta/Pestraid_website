@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Concrete
+namespace Business.Helpers.Results.Abstract
 {
-    public class NewsCategories
+    public interface IResult
     {
-        public string Name { get; set; }
+        bool Success { get; }
+        string Message { get; }
     }
 }

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Concrete
+namespace Entities.Abstract
 {
-    public class Categories
+    public interface IEntity
     {
-        public string Name { get; set; }
     }
 }

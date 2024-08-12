@@ -1,6 +1,8 @@
-﻿namespace Entities.Concrete
+﻿using Entities.Abstract;
+
+namespace Entities.Concrete
 {
-    public class About
+    public class About : BaseEntity
     {
         public string Title { get; set; }
         public string Content { get; set; }
